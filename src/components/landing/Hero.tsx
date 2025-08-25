@@ -23,6 +23,13 @@ const Hero = () => {
               Trusted by 100+ B2B SaaS Companies
             </div>
             
+            <div className="mb-4">
+              <span className="text-lg md:text-xl text-white/80 font-medium">Introducing</span>
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2">
+                The Pipeline Accelerator🚀
+              </h2>
+            </div>
+            
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               Scale Your Outbound Pipeline with{" "}
               <span className="bg-white/20 px-2 py-1 rounded-lg">AI SDR</span>
