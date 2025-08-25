@@ -70,7 +70,7 @@ const CTA = () => {
         {/* Company branding */}
         <div className="text-center mt-12">
           <div className="text-white/60 text-sm mb-2">Powered by</div>
-          <div className="text-2xl font-bold text-white">Solutions by Zia</div>
+          <div className="text-2xl font-bold text-white">Zia Solutions</div>
           <div className="text-white/80 text-sm">solutionsbyzia.com</div>
         </div>
       </div>
