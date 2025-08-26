@@ -77,7 +77,7 @@ const CTA = () => {
 
               {/* Trust indicators */}
               <div className="text-white/80 text-sm">
-                <p>✓ No long-term contracts  ✓ 30-day money-back guarantee  ✓ Quick setup included</p>
+                <p>✓ No long-term contracts  ✓ 30-day money-back guarantee</p>
               </div>
             </CardContent>
           </Card>
