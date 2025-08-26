@@ -25,7 +25,7 @@ const features = [
   {
     icon: Zap,
     title: "Rapid Deployment",
-    description: "Get your AI SDR up and running in under 48 hours. No lengthy setup or technical integration required."
+    description: "Get your AI SDR up and running quickly. No lengthy setup or technical integration required."
   },
   {
     icon: Shield,

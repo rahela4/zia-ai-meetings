@@ -4,7 +4,7 @@ import { Calendar, ArrowRight, CheckCircle } from "lucide-react";
 
 const benefits = [
   "15-30 qualified meetings guaranteed per month",
-  "Complete setup and optimization in 48 hours",
+  "Complete setup and optimization included",
   "No hiring, training, or management overhead",
   "Real-time analytics and performance tracking",
   "Full compliance with GDPR and CAN-SPAM"
@@ -61,7 +61,7 @@ const CTA = () => {
 
               {/* Trust indicators */}
               <div className="text-white/80 text-sm">
-                <p>✓ No long-term contracts  ✓ 30-day money-back guarantee  ✓ Setup in 48 hours</p>
+                <p>✓ No long-term contracts  ✓ 30-day money-back guarantee  ✓ Quick setup included</p>
               </div>
             </CardContent>
           </Card>
