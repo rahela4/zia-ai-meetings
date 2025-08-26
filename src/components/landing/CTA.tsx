@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Calendar, ArrowRight, CheckCircle } from "lucide-react";
+import { useEffect } from "react";
 
 const benefits = [
   "15-30 qualified meetings guaranteed per month",
@@ -11,6 +12,21 @@ const benefits = [
 ];
 
 const CTA = () => {
+  useEffect(() => {
+    // Load Calendly script
+    const script = document.createElement('script');
+    script.src = 'https://assets.calendly.com/assets/external/widget.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup script when component unmounts
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
+    };
+  }, []);
+
   return (
     <section className="py-24 relative overflow-hidden">
       {/* Background gradient */}
@@ -46,14 +62,20 @@ const CTA = () => {
                 ))}
               </div>
 
-              {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-                <Button variant="hero" size="xl" className="bg-white text-primary hover:bg-white/90 group">
-                  <Calendar className="w-5 h-5" />
-                  Book Your Strategy Call Now
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
-                
+              {/* Calendly Widget */}
+              <div className="mb-8">
+                <h3 className="text-2xl font-bold text-white mb-4">Book Your 30-Minute Discovery Call</h3>
+                <div className="bg-white rounded-lg p-4">
+                  <div 
+                    className="calendly-inline-widget" 
+                    data-url="https://calendly.com/ziasolutions/30min" 
+                    style={{ minWidth: '320px', height: '700px' }}
+                  />
+                </div>
+              </div>
+
+              {/* Alternative CTA */}
+              <div className="flex justify-center mb-6">
                 <Button variant="outline" size="xl" className="bg-white/10 border-white/20 text-white hover:bg-white/20 hover:text-white">
                   Download Case Study
                 </Button>
