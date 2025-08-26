@@ -74,12 +74,6 @@ const CTA = () => {
                 </div>
               </div>
 
-              {/* Alternative CTA */}
-              <div className="flex justify-center mb-6">
-                <Button variant="outline" size="xl" className="bg-white/10 border-white/20 text-white hover:bg-white/20 hover:text-white">
-                  Download Case Study
-                </Button>
-              </div>
 
               {/* Trust indicators */}
               <div className="text-white/80 text-sm">
