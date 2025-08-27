@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Users, TrendingUp } from "lucide-react";
-import heroImage from "@/assets/hero-ai-automation.jpg";
+import heroImage from "@/assets/ai-sdr-dashboard.jpg";
 import Navigation from "./Navigation";
 
 const Hero = () => {
@@ -74,7 +74,7 @@ const Hero = () => {
             <div className="relative">
               <img 
                 src={heroImage} 
-                alt="AI automation dashboard showing sales pipeline and meeting booking statistics"
+                alt="AI SDR dashboard showing automated sales pipeline, lead scoring, and meeting booking interface for B2B SaaS companies"
                 className="w-full h-auto rounded-2xl shadow-strong transform hover:scale-105 transition-smooth"
               />
               {/* Floating stat cards */}
