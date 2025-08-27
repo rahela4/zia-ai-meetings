@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Users, TrendingUp } from "lucide-react";
 import heroImage from "@/assets/hero-ai-automation.jpg";
+import Navigation from "./Navigation";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      <Navigation />
       {/* Background gradient */}
       <div className="absolute inset-0 gradient-hero opacity-95 -z-10" />
       

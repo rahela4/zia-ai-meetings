@@ -38,8 +38,12 @@ const Index = () => {
 
       <main>
         <Hero />
-        <Features />
-        <CTA />
+        <section id="services">
+          <Features />
+        </section>
+        <section id="about">
+          <CTA />
+        </section>
       </main>
     </>
   );
