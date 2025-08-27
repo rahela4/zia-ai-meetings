@@ -15,13 +15,24 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-6 lg:px-8 relative">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        {/* Header with logo and trust indicator */}
+        <div className="absolute top-8 left-0 right-0 flex justify-between items-center z-10">
+          <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/c951b325-0a01-4a55-9b94-1cad64790c83.png" 
+              alt="Zia Solutions Logo" 
+              className="h-12 w-auto"
+            />
+          </div>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white/90 text-sm font-medium shadow-soft">
+            <TrendingUp className="w-4 h-4" />
+            Trusted by 100+ B2B SaaS Companies
+          </div>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-12 items-center pt-20">
           {/* Content */}
           <div className="text-center lg:text-left animate-fade-in-up">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white/90 text-sm font-medium mb-6 shadow-soft">
-              <TrendingUp className="w-4 h-4" />
-              Trusted by 100+ B2B SaaS Companies
-            </div>
             
             <div className="mb-4">
               <span className="text-lg md:text-xl text-white/80 font-medium">Introducing</span>
