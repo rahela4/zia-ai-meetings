@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Info, Briefcase, TrendingUp } from "lucide-react";
+import { Calendar, Briefcase, TrendingUp } from "lucide-react";
 
 const Navigation = () => {
   const scrollToSection = (id: string) => {
@@ -24,10 +24,10 @@ const Navigation = () => {
               <Button 
                 variant="ghost" 
                 className="text-white hover:bg-white/10 hover:text-white"
-                onClick={() => scrollToSection('about')}
+                onClick={() => scrollToSection('hero')}
               >
-                <Info className="w-4 h-4 mr-2" />
-                About Us
+                <Calendar className="w-4 h-4 mr-2" />
+                Book Call
               </Button>
               
               <Button 
