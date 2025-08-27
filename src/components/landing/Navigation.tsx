@@ -24,7 +24,7 @@ const Navigation = () => {
               <Button 
                 variant="ghost" 
                 className="text-white hover:bg-white/10 hover:text-white"
-                onClick={() => scrollToSection('hero')}
+                onClick={() => scrollToSection('book-call')}
               >
                 <Calendar className="w-4 h-4 mr-2" />
                 Book Call

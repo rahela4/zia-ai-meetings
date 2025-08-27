@@ -41,7 +41,7 @@ const Index = () => {
         <section id="services">
           <Features />
         </section>
-        <section id="about">
+        <section id="book-call">
           <CTA />
         </section>
       </main>
