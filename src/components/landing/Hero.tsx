@@ -4,6 +4,13 @@ import heroImage from "@/assets/ai-sdr-dashboard.jpg";
 import Navigation from "./Navigation";
 
 const Hero = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <Navigation />
@@ -56,7 +63,12 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="xl" className="group">
+              <Button 
+                variant="hero" 
+                size="xl" 
+                className="group"
+                onClick={() => scrollToSection('book-call')}
+              >
                 <Calendar className="w-5 h-5" />
                 Book Your Strategy Call
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
