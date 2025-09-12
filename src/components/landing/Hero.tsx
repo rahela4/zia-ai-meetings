@@ -73,11 +73,6 @@ const Hero = () => {
                 Book Your Strategy Call
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              
-              <Button variant="outline" size="xl" className="bg-white/10 border-white/20 text-white hover:bg-white/20 hover:text-white">
-                <Users className="w-5 h-5" />
-                View Case Studies
-              </Button>
             </div>
           </div>
 
