@@ -57,7 +57,7 @@ const About = () => {
             <h3 className="text-2xl font-semibold text-foreground">
               Our Solution
             </h3>
-            <Card className="p-6 bg-gradient-primary border-primary/20">
+            <Card className="p-6 bg-primary text-primary-foreground border-primary/20">
               <div className="text-center">
                 <Target className="w-12 h-12 text-primary-foreground mx-auto mb-4" />
                 <h4 className="text-xl font-semibold text-primary-foreground mb-3">
