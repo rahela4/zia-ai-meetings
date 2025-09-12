@@ -1,5 +1,6 @@
 import Hero from "@/components/landing/Hero";
 import Features from "@/components/landing/Features";
+import About from "@/components/landing/About";
 import CTA from "@/components/landing/CTA";
 import { Helmet } from "react-helmet";
 
@@ -40,6 +41,9 @@ const Index = () => {
         <Hero />
         <section id="services">
           <Features />
+        </section>
+        <section id="about">
+          <About />
         </section>
         <section id="book-call">
           <CTA />
