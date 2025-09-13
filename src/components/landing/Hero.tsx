@@ -24,9 +24,9 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-6 lg:px-8 relative">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="flex items-center justify-center">
           {/* Content */}
-          <div className="text-center lg:text-left animate-fade-in-up pt-20">
+          <div className="text-center animate-fade-in-up pt-20 max-w-4xl">
             
             <div className="mb-4">
               <span className="text-lg md:text-xl text-white/80 font-medium">Introducing</span>
@@ -62,7 +62,7 @@ const Hero = () => {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 variant="hero" 
                 size="xl" 
@@ -73,27 +73,6 @@ const Hero = () => {
                 Book Your Strategy Call
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-            </div>
-          </div>
-
-          {/* Hero Image */}
-          <div className="relative lg:order-last animate-fade-in-up delay-300">
-            <div className="relative">
-              <img 
-                src={heroImage} 
-                alt="AI SDR dashboard showing automated sales pipeline, lead scoring, and meeting booking interface for B2B SaaS companies"
-                className="w-full h-auto rounded-2xl shadow-strong transform hover:scale-105 transition-smooth"
-              />
-              {/* Floating stat cards */}
-              <div className="absolute -top-4 -left-4 bg-white rounded-xl p-4 shadow-medium animate-bounce">
-                <div className="text-2xl font-bold text-primary">127%</div>
-                <div className="text-sm text-muted-foreground">Pipeline Growth</div>
-              </div>
-              
-              <div className="absolute -bottom-4 -right-4 bg-white rounded-xl p-4 shadow-medium animate-bounce delay-500">
-                <div className="text-2xl font-bold text-accent">23</div>
-                <div className="text-sm text-muted-foreground">Meetings This Week</div>
-              </div>
             </div>
           </div>
         </div>
