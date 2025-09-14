@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>AI SDR Services - Scale Your B2B SaaS Pipeline | Zia Solutions</title>
+        <title>Zia Solutions - Scale Your B2B SaaS Pipeline - The Pipeline Accelerator</title>
         <meta 
           name="description" 
           content="Book 15-30 qualified meetings per month with our AI SDR. No hiring, no overhead. Perfect for B2B SaaS companies looking to scale outbound sales." 
@@ -17,7 +17,7 @@ const Index = () => {
         <link rel="canonical" href="https://solutionsbyzia.com" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="AI SDR Services - Scale Your B2B SaaS Pipeline | Zia Solutions" />
+        <meta property="og:title" content="Zia Solutions - Scale Your B2B SaaS Pipeline - The Pipeline Accelerator" />
         <meta property="og:description" content="Book 15-30 qualified meetings per month with our AI SDR. No hiring, no overhead." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://solutionsbyzia.com" />
