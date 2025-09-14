@@ -40,7 +40,7 @@ const Hero = () => {
               <span className="bg-white/20 px-2 py-1 rounded-lg">AI SDR</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-2xl">
+            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
               Book 15-30 qualified meetings per month for your B2B SaaS. 
               <strong className="text-white"> No hiring, no overhead.</strong>
             </p>
