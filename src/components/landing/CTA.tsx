@@ -7,8 +7,7 @@ const benefits = [
   "15-30 qualified meetings guaranteed per month",
   "Complete setup and optimization included",
   "No hiring, training, or management overhead",
-  "Real-time analytics and performance tracking",
-  "Full compliance with GDPR and CAN-SPAM"
+  "Real-time analytics and performance tracking"
 ];
 
 const CTA = () => {
