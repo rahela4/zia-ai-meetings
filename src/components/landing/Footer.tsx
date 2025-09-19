@@ -23,18 +23,18 @@ const Footer = () => {
             {/* Quick links */}
             <div className="text-center md:text-right">
               <h3 className="text-lg font-semibold text-foreground mb-3">Quick Links</h3>
-              <div className="flex items-center gap-4">
+              <div className="flex flex-col gap-2">
                 <Button 
                   variant="ghost" 
                   onClick={() => scrollToSection('services')}
-                  className="text-muted-foreground hover:text-foreground"
+                  className="text-muted-foreground hover:text-foreground justify-start md:justify-end"
                 >
                   Why Choose Us
                 </Button>
                 <Button 
                   variant="ghost" 
                   onClick={() => scrollToSection('book-call')}
-                  className="text-muted-foreground hover:text-foreground"
+                  className="text-muted-foreground hover:text-foreground justify-start md:justify-end"
                 >
                   Contact Us
                 </Button>
