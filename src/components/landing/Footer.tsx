@@ -18,24 +18,35 @@ const Footer = () => {
             <div className="text-muted-foreground text-sm">solutionsbyzia.com</div>
           </div>
           
-          {/* Quick links */}
-          <div className="text-center md:text-right">
-            <h3 className="text-lg font-semibold text-foreground mb-3">Quick Links</h3>
-            <div className="flex items-center gap-4">
-              <Button 
-                variant="ghost" 
-                onClick={() => scrollToSection('services')}
-                className="text-muted-foreground hover:text-foreground"
-              >
-                Why Choose Us
-              </Button>
-              <Button 
-                variant="ghost" 
-                onClick={() => scrollToSection('book-call')}
-                className="text-muted-foreground hover:text-foreground"
-              >
-                Contact Us
-              </Button>
+          {/* Quick links and Contact */}
+          <div className="flex flex-col md:flex-row gap-8 md:gap-12">
+            {/* Quick links */}
+            <div className="text-center md:text-right">
+              <h3 className="text-lg font-semibold text-foreground mb-3">Quick Links</h3>
+              <div className="flex items-center gap-4">
+                <Button 
+                  variant="ghost" 
+                  onClick={() => scrollToSection('services')}
+                  className="text-muted-foreground hover:text-foreground"
+                >
+                  Why Choose Us
+                </Button>
+                <Button 
+                  variant="ghost" 
+                  onClick={() => scrollToSection('book-call')}
+                  className="text-muted-foreground hover:text-foreground"
+                >
+                  Contact Us
+                </Button>
+              </div>
+            </div>
+            
+            {/* Contact Us */}
+            <div className="text-center md:text-right">
+              <h3 className="text-lg font-semibold text-foreground mb-3">Contact Us</h3>
+              <div className="text-muted-foreground">
+                rahelalakram4@gmail.com
+              </div>
             </div>
           </div>
         </div>
