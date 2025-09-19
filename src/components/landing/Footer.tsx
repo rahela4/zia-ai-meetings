@@ -17,8 +17,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">About Zia Solutions</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Based in the UK, Zia Solutions is a specialized AI automation agency focused on scaling B2B SaaS pipelines. 
-              We help companies book 15-30 qualified meetings per month through our advanced AI SDR technology, eliminating the need for hiring and training overhead while delivering consistent, measurable results.
+              UK-based AI automation agency specializing in B2B SaaS pipeline acceleration.
             </p>
           </div>
 
