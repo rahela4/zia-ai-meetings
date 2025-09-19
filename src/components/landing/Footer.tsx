@@ -11,9 +11,22 @@ const Footer = () => {
   return (
     <footer className="py-12 bg-background border-t border-border">
       <div className="container mx-auto px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          {/* Company branding */}
-          <div className="text-center md:text-left">
+        <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
+          {/* About Us */}
+          <div className="flex-1 text-center lg:text-left">
+            <h3 className="text-lg font-semibold text-foreground mb-3">About Us</h3>
+            <div className="text-muted-foreground max-w-md">
+              <p className="mb-2">
+                Based in the UK, Zia Solutions is a specialized AI automation agency focused on scaling B2B SaaS pipelines.
+              </p>
+              <p>
+                We help companies book 15-30 qualified meetings per month through our advanced AI SDR technology, eliminating the need for hiring and training overhead while delivering consistent, measurable results.
+              </p>
+            </div>
+          </div>
+
+          {/* Company branding - moved to center */}
+          <div className="text-center">
             <div className="text-2xl font-bold text-foreground mb-2">Zia Solutions</div>
             <div className="text-muted-foreground text-sm">solutionsbyzia.com</div>
           </div>
