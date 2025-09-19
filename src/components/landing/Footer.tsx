@@ -11,55 +11,53 @@ const Footer = () => {
   return (
     <footer className="py-12 bg-background border-t border-border">
       <div className="container mx-auto px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
-          {/* About Us */}
-          <div className="flex-1 text-center lg:text-left">
-            <h3 className="text-lg font-semibold text-foreground mb-3">About Us</h3>
-            <div className="text-muted-foreground max-w-md">
-              <p className="mb-2">
-                Based in the UK, Zia Solutions is a specialized AI automation agency focused on scaling B2B SaaS pipelines.
-              </p>
-              <p>
-                We help companies book 15-30 qualified meetings per month through our advanced AI SDR technology, eliminating the need for hiring and training overhead while delivering consistent, measurable results.
-              </p>
+        {/* Main footer content */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          {/* About Us - Left Column */}
+          <div>
+            <h3 className="text-lg font-semibold text-foreground mb-4">About Zia Solutions</h3>
+            <p className="text-muted-foreground text-sm leading-relaxed">
+              Based in the UK, Zia Solutions is a specialized AI automation agency focused on scaling B2B SaaS pipelines. 
+              We help companies book 15-30 qualified meetings per month through our advanced AI SDR technology, eliminating the need for hiring and training overhead while delivering consistent, measurable results.
+            </p>
+          </div>
+
+          {/* Quick Links - Middle Column */}
+          <div>
+            <h3 className="text-lg font-semibold text-foreground mb-4">Quick Links</h3>
+            <div className="flex flex-col gap-2">
+              <Button 
+                variant="ghost" 
+                onClick={() => scrollToSection('services')}
+                className="text-muted-foreground hover:text-foreground justify-start p-0 h-auto font-normal"
+              >
+                Why Choose Us
+              </Button>
+              <Button 
+                variant="ghost" 
+                onClick={() => scrollToSection('book-call')}
+                className="text-muted-foreground hover:text-foreground justify-start p-0 h-auto font-normal"
+              >
+                Contact Us
+              </Button>
             </div>
           </div>
 
-          {/* Company branding - moved to center */}
-          <div className="text-center">
-            <div className="text-2xl font-bold text-foreground mb-2">Zia Solutions</div>
-            <div className="text-muted-foreground text-sm">solutionsbyzia.com</div>
-          </div>
-          
-          {/* Quick links and Contact */}
-          <div className="flex flex-col md:flex-row gap-8 md:gap-12">
-            {/* Quick links */}
-            <div className="text-center md:text-right">
-              <h3 className="text-lg font-semibold text-foreground mb-3">Quick Links</h3>
-              <div className="flex flex-col gap-2">
-                <Button 
-                  variant="ghost" 
-                  onClick={() => scrollToSection('services')}
-                  className="text-muted-foreground hover:text-foreground justify-start md:justify-end"
-                >
-                  Why Choose Us
-                </Button>
-                <Button 
-                  variant="ghost" 
-                  onClick={() => scrollToSection('book-call')}
-                  className="text-muted-foreground hover:text-foreground justify-start md:justify-end"
-                >
-                  Contact Us
-                </Button>
-              </div>
+          {/* Contact - Right Column */}
+          <div>
+            <h3 className="text-lg font-semibold text-foreground mb-4">Contact</h3>
+            <div className="text-muted-foreground text-sm space-y-2">
+              <p>rahelalakram4@gmail.com</p>
+              <p>solutionsbyzia.com</p>
             </div>
-            
-            {/* Contact Us */}
-            <div className="text-center md:text-right">
-              <h3 className="text-lg font-semibold text-foreground mb-3">Contact Us</h3>
-              <div className="text-muted-foreground">
-                rahelalakram4@gmail.com
-              </div>
+          </div>
+        </div>
+
+        {/* Bottom footer */}
+        <div className="pt-8 border-t border-border">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="text-muted-foreground text-sm">
+              © 2025 Zia Solutions. All rights reserved.
             </div>
           </div>
         </div>
