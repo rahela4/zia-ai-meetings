@@ -47,7 +47,6 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-foreground mb-4">Contact</h3>
             <div className="text-muted-foreground text-sm space-y-2">
               <p>rahelalakram4@gmail.com</p>
-              <p>solutionsbyzia.com</p>
             </div>
           </div>
         </div>
