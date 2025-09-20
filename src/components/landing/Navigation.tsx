@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Briefcase, TrendingUp } from "lucide-react";
-import ziaLogo from "@/assets/zia-logo.png";
+import ziaLogo from "@/assets/zia-logo-new.png";
 
 const Navigation = () => {
   const scrollToSection = (id: string) => {
@@ -20,7 +20,7 @@ const Navigation = () => {
               <img 
                 src={ziaLogo} 
                 alt="Zia Solutions Logo" 
-                className="w-8 h-8"
+                className="w-12 h-12"
               />
               <div className="text-white font-bold text-xl">
                 Zia Solutions
