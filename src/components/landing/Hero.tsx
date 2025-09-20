@@ -41,14 +41,14 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-              Book 15-30 qualified meetings per month for your B2B SaaS. 
+              Book 15+ qualified meetings per month for your B2B SaaS. 
               <strong className="text-white"> No hiring, no overhead.</strong>
             </p>
             
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 mb-8 max-w-xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl font-bold text-white">15-30</div>
+                <div className="text-3xl font-bold text-white">15+</div>
                 <div className="text-white/80 text-sm">Meetings/Month</div>
               </div>
               <div className="text-center">

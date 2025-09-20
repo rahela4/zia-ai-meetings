@@ -78,7 +78,7 @@ const Features = () => {
         <div className="mt-16 p-8 rounded-2xl gradient-hero text-white text-center shadow-strong">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="text-4xl font-bold mb-2">15-30</div>
+              <div className="text-4xl font-bold mb-2">15+</div>
               <div className="text-white/80">Qualified Meetings/Month</div>
             </div>
             <div>
