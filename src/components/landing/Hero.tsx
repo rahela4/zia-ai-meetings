@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="mb-4">
               <span className="text-lg md:text-xl text-white/80 font-medium">Introducing</span>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2">
-                The Pipeline Accelerator🚀
+                The Pipeline Surge🚀
               </h2>
             </div>
             
