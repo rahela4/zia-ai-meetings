@@ -36,8 +36,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Scale Your Outbound Pipeline with{" "}
-              <span className="bg-white/20 px-2 py-1 rounded-lg">AI SDR</span>
+              Scale Your Outbound Pipeline
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
