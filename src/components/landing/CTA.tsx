@@ -46,7 +46,7 @@ const CTA = () => {
                   Ready to Scale Your Pipeline?
                 </h2>
                 <p className="text-xl text-white/90 max-w-2xl mx-auto">
-                  Join 100+ devtools SaaS companies already using our AI SDR to book more meetings, 
+                  Join 100+ DevTools SaaS companies already using our AI SDR to book more meetings, 
                   close more deals, and grow faster than ever before.
                 </p>
               </div>

@@ -40,7 +40,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-              Book 15+ qualified meetings per month for your devtools SaaS. 
+              Book 15+ qualified meetings per month for your DevTools SaaS. 
               <strong className="text-white"> No hiring, no overhead.</strong>
             </p>
             

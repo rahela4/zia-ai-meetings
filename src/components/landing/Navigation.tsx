@@ -55,7 +55,7 @@ const Navigation = () => {
       <div className="absolute top-16 left-0 right-0 z-40 flex justify-center pt-4">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-muted text-muted-foreground text-sm font-medium shadow-soft">
           <TrendingUp className="w-4 h-4" />
-          Trusted by 100+ devtools SaaS Companies
+          Trusted by 100+ DevTools SaaS Companies
         </div>
       </div>
     </>

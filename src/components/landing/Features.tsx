@@ -10,7 +10,7 @@ const features = [
   {
     icon: Target,
     title: "Precision Targeting",
-    description: "Identify and reach decision-makers at your ideal devtools SaaS prospects with 90%+ accuracy rates."
+    description: "Identify and reach decision-makers at your ideal DevTools SaaS prospects with 90%+ accuracy rates."
   },
   {
     icon: Calendar,

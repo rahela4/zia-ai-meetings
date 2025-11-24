@@ -9,16 +9,16 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Zia Solutions - Scale Your devtools SaaS Pipeline - The Pipeline Surge</title>
+        <title>Zia Solutions - Scale Your DevTools SaaS Pipeline - The Pipeline Surge</title>
         <meta 
           name="description" 
-          content="Book 15-30 qualified meetings per month with our AI SDR. No hiring, no overhead. Perfect for devtools SaaS companies looking to scale outbound sales." 
+          content="Book 15-30 qualified meetings per month with our AI SDR. No hiring, no overhead. Perfect for DevTools SaaS companies looking to scale outbound sales." 
         />
-        <meta name="keywords" content="AI SDR, devtools SaaS, sales automation, outbound sales, lead generation" />
+        <meta name="keywords" content="AI SDR, DevTools SaaS, sales automation, outbound sales, lead generation" />
         <link rel="canonical" href="https://solutionsbyzia.com" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Zia Solutions - Scale Your devtools SaaS Pipeline - The Pipeline Surge" />
+        <meta property="og:title" content="Zia Solutions - Scale Your DevTools SaaS Pipeline - The Pipeline Surge" />
         <meta property="og:description" content="Book 15-30 qualified meetings per month with our AI SDR. No hiring, no overhead." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://solutionsbyzia.com" />
@@ -30,10 +30,10 @@ const Index = () => {
             "@type": "Organization",
             "name": "Zia Solutions",
             "url": "https://solutionsbyzia.com",
-            "description": "AI automation services for devtools SaaS companies",
+            "description": "AI automation services for DevTools SaaS companies",
             "serviceType": "AI SDR Services",
             "areaServed": "Global",
-            "audience": "devtools SaaS Companies"
+            "audience": "DevTools SaaS Companies"
           })}
         </script>
       </Helmet>
