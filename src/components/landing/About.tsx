@@ -78,7 +78,7 @@ const About = () => {
             Why Zia Solutions Exists
           </h3>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            We founded Zia Solutions because we believe every B2B SaaS company deserves predictable, 
+            We founded Zia Solutions because we believe every devtools SaaS company deserves predictable, 
             cost-effective lead generation. Instead of gambling with expensive SDR hires, our AI automation 
             ensures you get 15+ qualified meetings per month while cutting your sales development costs by up to 80%.
           </p>
