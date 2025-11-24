@@ -17,7 +17,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">About Zia Solutions</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              UK-based AI automation agency specializing in B2B SaaS pipeline acceleration.
+              UK-based AI automation agency specializing in devtools SaaS pipeline acceleration.
             </p>
           </div>
 
