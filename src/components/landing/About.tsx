@@ -61,10 +61,10 @@ const About = () => {
               <div className="text-center">
                 <Target className="w-12 h-12 text-primary-foreground mx-auto mb-4" />
                 <h4 className="text-xl font-semibold text-primary-foreground mb-3">
-                  AI-Powered Efficiency
+                  Automated Efficiency
                 </h4>
                 <p className="text-primary-foreground/90 leading-relaxed">
-                  Our AI SDR agents work 24/7, deliver consistent results, and cost 80% less than 
+                  Our automated SDR agents work 24/7, deliver consistent results, and cost 80% less than 
                   traditional hiring. No salaries, no benefits, no management headaches—just qualified 
                   meetings delivered to your calendar.
                 </p>
@@ -79,7 +79,7 @@ const About = () => {
           </h3>
           <p className="text-lg text-muted-foreground leading-relaxed">
             We founded Zia Solutions because we believe every DevTools SaaS company deserves predictable, 
-            cost-effective lead generation. Instead of gambling with expensive SDR hires, our AI automation 
+            cost-effective lead generation. Instead of gambling with expensive SDR hires, our automation 
             ensures you get 15+ qualified meetings per month while cutting your sales development costs by up to 80%.
           </p>
         </div>
