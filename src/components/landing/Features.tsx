@@ -4,8 +4,8 @@ import { Bot, Target, Calendar, BarChart3, Zap, Shield } from "lucide-react";
 const features = [
   {
     icon: Bot,
-    title: "AI-Powered SDR",
-    description: "Advanced AI that understands your ICP and crafts personalized outreach at scale with human-like conversations."
+    title: "Hyper-Personalized SDR",
+    description: "Advanced automation that understands your ICP and crafts personalized outreach at scale with human-like conversations."
   },
   {
     icon: Target,

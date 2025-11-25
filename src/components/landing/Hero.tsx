@@ -56,7 +56,7 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-white">100%</div>
-                <div className="text-white/80 text-sm">AI Automated</div>
+                <div className="text-white/80 text-sm">Automated</div>
               </div>
             </div>
 
