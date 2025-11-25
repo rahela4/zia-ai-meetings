@@ -43,7 +43,7 @@ const Features = () => {
             Why Choose The Pipeline Surge?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Stop burning budget on underperforming SDR teams. Our AI delivers consistent, 
+            Stop burning budget on underperforming SDR teams. Our service delivers consistent, 
             measurable results without the overhead, training costs, or management headaches.
           </p>
         </div>
