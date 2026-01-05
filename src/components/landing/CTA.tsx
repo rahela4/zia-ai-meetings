@@ -4,7 +4,7 @@ import { Calendar, ArrowRight, CheckCircle } from "lucide-react";
 import { useEffect } from "react";
 
 const benefits = [
-  "15+ qualified meetings guaranteed per month",
+  "15+ qualified meetings guaranteed in 60 days",
   "Complete setup and optimization included",
   "No hiring, training, or management overhead",
   "Real-time analytics and performance tracking"

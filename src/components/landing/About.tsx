@@ -80,7 +80,7 @@ const About = () => {
           <p className="text-lg text-muted-foreground leading-relaxed">
             We founded Zia Solutions because we believe every DevTools SaaS company deserves predictable, 
             cost-effective lead generation. Instead of gambling with expensive SDR hires, our automation 
-            ensures you get 15+ qualified meetings per month while cutting your sales development costs by up to 80%.
+            ensures you get 15+ qualified meetings in 60 days while cutting your sales development costs by up to 80%.
           </p>
         </div>
       </div>
