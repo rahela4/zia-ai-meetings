@@ -79,7 +79,7 @@ const Features = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="text-4xl font-bold mb-2">15+</div>
-              <div className="text-white/80">Qualified Meetings/Month</div>
+              <div className="text-white/80">Qualified Meetings in 60 Days</div>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">45%</div>
