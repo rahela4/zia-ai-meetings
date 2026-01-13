@@ -12,14 +12,14 @@ const Index = () => {
         <title>Zia Solutions - Scale Your DevTools SaaS Pipeline - The Pipeline Surge</title>
         <meta 
           name="description" 
-          content="Book 15+ qualified meetings in 60 days with our automated SDR. No hiring, no overhead. Perfect for DevTools SaaS companies looking to scale outbound sales." 
+          content="Book 15+ qualified meetings in 60 days with LinkedIn automated & personalized outbound. Perfect for DevTools SaaS companies looking to scale their pipeline." 
         />
-        <meta name="keywords" content="AI SDR, DevTools SaaS, sales automation, outbound sales, lead generation" />
+        <meta name="keywords" content="LinkedIn outbound, DevTools SaaS, sales automation, lead generation, LinkedIn automation" />
         <link rel="canonical" href="https://solutionsbyzia.com" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Zia Solutions - Scale Your DevTools SaaS Pipeline - The Pipeline Surge" />
-        <meta property="og:description" content="Book 15+ qualified meetings in 60 days with our automated SDR. No hiring, no overhead." />
+        <meta property="og:description" content="Book 15+ qualified meetings in 60 days with LinkedIn automated & personalized outbound." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://solutionsbyzia.com" />
         
@@ -30,8 +30,8 @@ const Index = () => {
             "@type": "Organization",
             "name": "Zia Solutions",
             "url": "https://solutionsbyzia.com",
-            "description": "AI automation services for DevTools SaaS companies",
-            "serviceType": "AI SDR Services",
+            "description": "LinkedIn outbound automation for DevTools SaaS companies",
+            "serviceType": "LinkedIn Lead Generation",
             "areaServed": "Global",
             "audience": "DevTools SaaS Companies"
           })}
