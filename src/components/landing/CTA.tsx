@@ -5,8 +5,8 @@ import { useEffect } from "react";
 
 const benefits = [
   "15+ qualified meetings guaranteed in 60 days",
-  "Complete setup and optimization included",
-  "No hiring, training, or management overhead",
+  "LinkedIn automation fully set up for you",
+  "Personalized outreach that converts",
   "Real-time analytics and performance tracking"
 ];
 
