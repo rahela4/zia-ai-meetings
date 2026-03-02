@@ -20,7 +20,7 @@ const Navigation = () => {
               <img 
                 src={ziaLogo} 
                 alt="Zia Solutions Logo" 
-                className="w-16 h-16"
+                className="w-20 h-16 object-contain"
               />
               <div className="text-foreground font-bold text-xl">
                 Zia Solutions
